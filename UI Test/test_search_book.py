@@ -18,6 +18,7 @@ def driver():
 # Тест: Поиск книги
 @allure.feature('Поиск книги')
 @allure.story('Поиск книги по названию')
+@allure.title('Проверка поиска по названию "Три товарища"')
 def test_search_book(driver):
     with allure.step('Вводим название книги в поисковое поле'):
         search_box = driver.find_element_by_name("search")

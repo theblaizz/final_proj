@@ -18,6 +18,7 @@ def driver():
 # Тест: Страница товара
 @allure.feature('Страница товара')
 @allure.story('Проверка элементов страницы товара')
+@allure.title('Вводим название книги')
 def test_product_page(driver):
     with allure.step('Вводим название книги в поисковое поле'):
         search_box = driver.find_element_by_name("search")
