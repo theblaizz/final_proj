@@ -40,3 +40,5 @@ pytest tests/ui
 
 Для UI-тестов, вероятно, используется Selenium/WebDriver, поэтому должен быть установлен браузерный драйвер (ChromeDriver, GeckoDriver):
 # Windows: скачать chromedriver.exe и положить в PATH
+
+Ссылка на финальную ручную работу: https://skypro011.yonote.ru/share/3264f0f3-fcfc-4b08-abec-363f566bafbb
